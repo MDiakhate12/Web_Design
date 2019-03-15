@@ -1,0 +1,47 @@
+button {
+    width: 75px;
+    height: 75px;
+}
+
+@media screen and (max-width:767px){
+   .jumbotron > .image {
+       display: flex;
+       justify-content: center;
+   }
+
+   .btn-group a{
+    font-size: 10px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .bounceInLeft{
+        float: right;
+    }
+
+}
+
+
+h1{
+    text-shadow: 3px 3px rgb(138, 148, 148);
+    font-size: 50px;
+}
+div.lead > p {
+    font-size: 30px;
+    border-bottom: 1px solid rgb(64, 72, 73);
+}
+
+h3 {
+    text-shadow: 2px 2px rgb(205, 208, 209);
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.scrolling-bars {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex: 1;
+}

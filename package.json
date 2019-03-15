@@ -1,0 +1,29 @@
+{
+  "name": "repertoire_web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "browser-sync start --server --directory --files '**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDiakhate12/Web_Design.git"
+  },
+  "author": "Mouhammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MDiakhate12/Web_Design/issues"
+  },
+  "homepage": "https://github.com/MDiakhate12/Web_Design#readme",
+  "description": ""
+}
